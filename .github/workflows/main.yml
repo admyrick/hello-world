@@ -1,6 +1,17 @@
-uses: robinraju/release-downloader@v1
-with:
-  repository: 'shadps4-emu/shadPS4'
-  fileName: '*'
-  latest: true
-  preRelease: true
+name: Release Downloader
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: robinraju/release-downloader@v1
+    - name: Release Downloader
+      uses: robinraju/release-downloader@v1
+      with:
+        repository: 'shadps4-emu/shadPS4'
+        fileName: '*'
+        latest: true
+        preRelease: true
