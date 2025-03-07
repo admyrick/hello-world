@@ -18,5 +18,3 @@ jobs:
         zipBall: false
         out-file-path: .
         extract: false
-        token: ***
-        github-api-url: https://api.github.com
