@@ -1,4 +1,4 @@
-- uses: robinraju/release-downloader@v1
+uses: robinraju/release-downloader@v1
   with:
     repository: 'shadps4-emu/shadPS4'
     fileName: '*'
