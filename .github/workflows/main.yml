@@ -1,0 +1,6 @@
+- uses: robinraju/release-downloader@v1
+  with:
+    repository: 'shadps4-emu/shadPS4'
+    fileName: '*'
+    latest: true
+    preRelease: true
