@@ -11,7 +11,12 @@ jobs:
     - name: Release Downloader
       uses: robinraju/release-downloader@v1
       with:
-        repository: 'shadps4-emu/shadPS4'
-        fileName: '*'
-        latest: true
+        repository: shadps4-emu/shadPS4
+        latest: false
         preRelease: true
+        tarBall: false
+        zipBall: false
+        out-file-path: .
+        extract: false
+        token: ***
+        github-api-url: https://api.github.com
